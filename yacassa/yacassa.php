@@ -222,17 +222,18 @@ class YaCassa extends PaymentModule
 						'type' => 'text',
 						'label' => $this->l('Shop id'),
 						'name' => 'YC_SHOPID',
+                                                'desc' => $this->l('Shop id. You get when pass registration on yandexmoney')
 					),
 					array(
 						'type' => 'text',
 						'label' => $this->l('scid'),
 						'name' => 'YC_SCID',
-						'desc' => $this->l('SCID')
+						'desc' => $this->l('SCID. You get when pass registration on yandexmoney')
 					),
 					array(
 						'type' => 'text',
 						'label' => $this->l('Is a private password (20 random characters) used to calculate the cryptographic hash'),
-						'name' => 'YC_SHOPPASSWORD',
+						'name' => 'YC_SHOPPASSWORD'
 					),
                                         array(
                                                 'type' => 'radio',
