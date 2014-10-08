@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>yacassa</name>
+	<displayName><![CDATA[Yandex cassa]]></displayName>
+	<version><![CDATA[0.1]]></version>
+	<description><![CDATA[Accept payments for your products via yandex cassa.]]></description>
+	<author><![CDATA[Anisimow]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Are you sure about removing these details?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
