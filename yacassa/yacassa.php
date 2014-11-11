@@ -187,7 +187,7 @@ class YaCassa extends PaymentModule
                                 'AC' => (array('allow'=>Configuration::get('YC_ALLOW_BANK_CARD'), 'method' => $this->l('Bank card'))),
                                 'MC' => (array('allow'=>Configuration::get('YC_ALLOW_MOBILE'), 'method' => $this->l('Mobile phone'))),
                                 'GP' => (array('allow'=>Configuration::get('YC_ALLOW_TERMINAL'), 'method' => $this->l('Therminal'))),
-                                'VM' => (array('allow'=>Configuration::get('YC_ALLOW_WEBMONEY'), 'method' => $this->l('Webmoney'))),
+                                'WM' => (array('allow'=>Configuration::get('YC_ALLOW_WEBMONEY'), 'method' => $this->l('Webmoney'))),
                                 'SB' => (array('allow'=>Configuration::get('YC_ALLOW_SBERBANK'),'method' => $this->l('Sberbank'))),
                                 'MP' => (array('allow'=>Configuration::get('YC_ALLOW_MPOS'), 'method' => $this->l('Mobile terminal')))
                                 ),
