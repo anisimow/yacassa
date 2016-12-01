@@ -1,4 +1,4 @@
-DEPRICATED use https://github.com/yandex-money/yandex-money-cms-prestashop
+DEPRECATED use https://github.com/yandex-money/yandex-money-cms-prestashop
 
 Яндекс касса для prestashop v1.6
 =======
